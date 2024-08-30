@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/slideshow.css">
+    <script src="./assets/js/slideshow.js" defer></script>
+
+</head>
+<body>
+    <header>
+
+        <nav class="navbar">
+            <div class="navbar--left">
+                <li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
+                <li class="navbar__item"><a href="./pages/events.html" class="navbar__link">Eventos</a></li>
+                <li class="navbar__item"><a href="./pages/contact.html" class="navbar__link">Contato</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn"><a class="navbar__link">Cursos</a>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./courses/ads.html">Análise e Desenvolvimento de Sistemas</a>
+                        <a href="./courses/engenharia.html">Engenharia de Produção</a>
+                        <a href="./courses/gestao_ti.html">Gestão em Tecnologia da Informação</a>
+                        <a href="./courses/letras.html">Letras</a>
+                        <a href="./courses/gestao_publica.html">Gestão Pública</a>
+                    </div>
+                </div>
+                <li class="navbar__item"><a href="./pages/login.html" class="navbar__link">Entrar</a></li>
+            </div>
+            <div class="navbar---right">
+                <li class="navbar__item"><a href="./pages/about.html" class="navbar__link">Sobre</a></li>
+            </div>
+        </nav>
+        <section class="intro">
+
+            <figure class="logo">
+
+                <img src="./assets/img/Logo.jpg" alt="Logo do IFSP">
+            </figure>
+    </header>
+    </section>
+    <section class="carrossel">
+        <body>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+
+                    <img src="./assets/img/A.png" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="./assets/img/B.jpg" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="./assets/img/C.jpg" style="width:100%">
+
+                </div>
+                <div class="mySlides fade">
+                    <div class="inovacao">
+
+                        <h2>Conheça os novos desafios de inovação</h2>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/5g5LQe3m8Po?si=qrplXbUvVbLGB_-I"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+      
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+
+            </div>
+        </body>
+        <section class="noticias">
+            <figure class="noticias__noticia">
+                <img src="./assets/img/eleicoes.jpg" alt="" class="noticias__img">
+                <figcaption class="noticias__legendas">
+                    <h3>Radar IFSP: Informe-se sobre as eleições do dia 13 de outubro</h3>
+                    <p>Todos os alunos e servidores podem votar, acesse aqui a cabine de votação online do seu campus
+                    </p>
+                </figcaption>
+
+            </figure>
+            <figure class="noticias__noticia">
+                <img src="./assets/img/snct.jpg" alt="" class="noticias__img">
+                <figcaption class="noticias__legendas">
+                    <h3>IFSP: SNCT reúne atividades entre 19 e 24 de outubro</h3>
+                    <p>Programação reunirá iniciativas para aproximar pesquisadores e atividades culturais</p>
+                </figcaption>
+
+            </figure>
+            <figure class="noticias__noticia">
+                <img src="./assets/img/residencia.png" alt="" class="noticias__img">
+                <figcaption class="noticias__legendas">
+                    <h3>IFSP oferece bolsa aos voluntários da Residência Pedagógica</h3>
+                    <p>Bolsa de R$400,00 será paga pelo período de três meses</p>
+                </figcaption>
+
+            </figure>
+            <figure class="noticias__noticia">
+                <img src="./assets/img/maratona.jpeg" alt="" class="noticias__img">
+                <figcaption class="noticias__legendas">
+                    <h3>Inscrições abertas para a III Maratona InterIF</h3>
+                    <p>Maratona de programação do IFSP será realizada online, no dia 31 de outubro; inscrições até 26 de
+                        outubro</p>
+                </figcaption>
+
+            </figure>
+        </section>
+        <section class="inovacao">
+
+            <h2>Conheça os novos desafios de inovação</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po?si=qrplXbUvVbLGB_-I"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <div>
+                <a href="#">
+                    <img src="./assets/img/MoveTop.png" alt="Voltar para o topo" class="img--link">
+                </a>
+                <a href="https://www.facebook.com/ifsppirituba" target="_blank">
+                    <img src="./assets/img/facebook.png" alt="Facebook do IFSP Pirituba" class="img--link">
+                </a>
+            </div>
+        </section>
+        <footer>
+            <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato:
+                (011) 2504-0100</p>
+        </footer>
+</body>
+</html>
