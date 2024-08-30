@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/forms.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar--left">
+                <li class="navbar__item"><a href="../index.html" class="navbar__link">Home</a></li>
+                <li class="navbar__item"><a href="./events.html" class="navbar__link">Eventos</a></li>
+                <li class="navbar__item"><a href="./contact.html" class="navbar__link">Contato</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Cursos 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../courses/ads.html">Análise e Desenvolvimento de Sistemas</a>
+                        <a href="../courses/engenharia.html">Engenharia de Produção</a>
+                        <a href="../courses/gestao_ti.html">Gestão em Tecnologia da Informação</a>
+                        <a href="../courses/letras.html">Letras</a>
+                        <a href="../courses/gestao_publica.html">Gestão Pública</a>
+                    </div>
+                  </div> 
+                <li class="navbar__item"><a href="./login.html" class="navbar__link">Entrar</a></li>
+            </div>
+            <div class="navbar---right">
+                <li class="navbar__item"><a href="./about.html" class="navbar__link">Sobre</a></li>
+            </div>
+        </nav>
+        <section class="intro">
+
+            <figure class="logo">
+
+                <img src="../assets/img/Logo.jpg" alt="Logo do IFSP">
+            </figure>
+    </header>
+    <h1>Mande uma mensagem</h1>
+    <form>
+        <ul>
+            <li>
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nome" required>
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="text" name="email" class="input-big" required>
+            </li>
+            <li>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" class="teste" placeholder="(99)99999-9999" required>
+                </li>
+                <li> 
+                    <label for="eventos">Assunto</label>
+                    <select name="eventos">
+                        <option value="">-- selecione --</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="sugestao">Sugestão</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" cols="30" rows="10" class="input-big"></textarea>
+                </li>
+                
+        
+        <fieldset class="opcoes-resposta">
+            <legend>Opções de resposta</legend>
+                <label for="email">E-mail</label>
+            <input type="checkbox" name="opcoes-resposta">
+            <label for="tel">Telefone</label>
+            <input type="checkbox" name="opcoes-resposta">
+
+        </fieldset>
+        <li>
+            <input type="submit">
+        </li>        
+    </ul>
+    </form>
+
+    <a href="https://www.facebook.com/ifsppirituba" target="_blank">
+        <img src="../assets/img/facebook.png" alt="Facebook do IFSP Pirituba" class="img--link">
+    </a>
+    </section>
+    <footer>
+        <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato:
+            (011) 2504-0100</p>
+    </footer>
+</body>

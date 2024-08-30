@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/forms.css">
+    <title>Eventos</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <div class="navbar--left">
+                <li class="navbar__item"><a href="../index.html" class="navbar__link">Home</a></li>
+                <li class="navbar__item"><a href="./events.html" class="navbar__link">Eventos</a></li>
+                <li class="navbar__item"><a href="./contact.html" class="navbar__link">Contato</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Cursos 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../courses/ads.html">Análise e Desenvolvimento de Sistemas</a>
+                        <a href="../courses/engenharia.html">Engenharia de Produção</a>
+                        <a href="../courses/gestao_ti.html">Gestão em Tecnologia da Informação</a>
+                        <a href="../courses/letras.html">Letras</a>
+                        <a href="../courses/gestao_publica.html">Gestão Pública</a>
+                    </div>
+                  </div> 
+                <li class="navbar__item"><a href="./login.html" class="navbar__link">Entrar</a></li>
+            </div>
+            <div class="navbar---right">
+                <li class="navbar__item"><a href="./about.html" class="navbar__link">Sobre</a></li>
+            </div>
+        </nav>
+        <section class="intro">
+
+            <figure class="logo">
+
+                <img src="../assets/img/Logo.jpg" alt="Logo do IFSP">
+            </figure>
+    </header>
+
+    <h1>Inscreva-se</h1>
+    <form>
+
+        <fieldset class="selecao-eventos">
+            <label for="eventos">Evento</label>
+            <select name="eventos">
+                <option value="">-- selecione --</option>
+                <option value="voe_sem_asas">Voe sem asas</option>
+                <option value="festa_junina">Festa junina</option>
+                <option value="snct">Semana de tecnologia</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="infos-acesso">
+            <legend>Informações de acesso</legend>
+            <div>
+
+                <label for="user">Usuário</label>
+                <input type="text" name="user" required>
+            </div>
+            <div>
+
+                <label for="pass">Senha</label>
+                <input type="password" name="pass" required>
+            </div>
+            <div>
+                <label for="confirm-pass">Confirme a senha</label>
+                <input type="password" name="confirm-pass" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="infos-pessoais">
+            <legend>Informações pessoais</legend>
+            <div>
+
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nome" required>
+            </div>
+            <div>
+
+                <label for="email">Email</label>
+                <input type="text" name="email" class="input-big" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" class="input-big" placeholder="(99)99999-9999" required>
+            </div>
+            <fieldset class="sexo">
+                <legend>Sexo</legend>
+                <div>
+
+                    <label for="masc-radio">Masculino</label>
+                    <input type="radio" name="sexo">
+                </div>
+                <div>
+
+                    <label for="fem-radio">Feminino</label>
+                    <input type="radio" name="sexo">
+                </div>
+            </fieldset>
+
+
+            <div>
+                <label for="data-nasc">Data de nascimento</label>
+                <input type="date" name="data-nasc" required>
+            </div>
+            <div>
+                <label for="cor">Cor favorita</label>
+                <input type="color" name="cor">
+            </div>
+            <div>
+                <label for="github">Perfil no Github</label>
+                <input type="url" class="input-big" name="github">
+            </div>
+
+        </fieldset>
+
+        <input type="submit" name="submit" value="Inscrever-se">
+
+        <input type="reset" name="clear" value="Limpar">
+    </form>
+
+    <a href="https://www.facebook.com/ifsppirituba" target="_blank">
+        <img src="../assets/img/facebook.png" alt="Facebook do IFSP Pirituba" class="img--link">
+    </a>
+    </section>
+    <footer>
+        <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato:
+            (011) 2504-0100</p>
+    </footer>
+</body>
